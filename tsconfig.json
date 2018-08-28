@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+      "outDir": "dist-react",
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es6", "dom","esnext"],
+      "sourceMap": true,
+      "allowJs": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": false,
+      "noImplicitThis": false,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": false,
+      "experimentalDecorators": true,
+      "rootDir" : "../",
+      "baseUrl" : "./",
+      "paths": {
+          //"*" : ["node_modules/@types/*", "*"]
+          // "components/*": ["app/components/*"],
+          // "config/*": ["config/*"],
+          // "fonts/*": ["app/static/fonts/*"],
+          // "images/*": ["app/static/images/*"],
+          // "server/*": ["server/*"],
+          // "services/*": ["app/services/*"],
+          // "styles/*": ["app/styles/*"],
+          // "vectors/*": ["app/static/vectors/*"],
+          // "styled-components": ["app/services/styled-components.ts"]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "node",
+      "dist-node",
+      "dist-react"
+    ],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["dom", "es6"],
+    "types": [
+      "types"
+    ]
+  }
+  

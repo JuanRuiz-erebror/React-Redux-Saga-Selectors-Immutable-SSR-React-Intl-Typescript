@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        "lodash",
+        ["babel-plugin-styled-components", {
+            "ssr": true
+        }]
+    ],
+    "env": {
+        "production": {
+            "plugins": [
+                [                   
+                    "transform-react-remove-prop-types",
+                    {
+                        "mode": "remove",
+                        "removeImport": true
+                    }
+                ],
+                "react-hot-loader/babel",
+                "transform-runtime"
+            ]
+        }
+    }
+}
