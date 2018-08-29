@@ -1,8 +1,8 @@
-{
-  "name": "powerbim",
+﻿{
+  "name": "ultimate_react",
   "version": "0.1.0",
   "private": true,
-  "description": "POWERBIM React",
+  "description": React Boilerplate",
   "author": "Ruiz Pinzón, Juan",
   "proxy": "http://localhost:3000",
   "ava": {
