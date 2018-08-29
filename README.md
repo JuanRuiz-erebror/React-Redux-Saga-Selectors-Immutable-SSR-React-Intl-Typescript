@@ -77,13 +77,6 @@ In each project, we can continue to improve and refine our way of creating and m
 
 </dl>
 
-**Why Typescript?**
-
-Two words: type safety.
-
-
-
-
 
 ## Getting started
 
