@@ -2,9 +2,9 @@
 
 **Another React boilerplate?**
 
-n each project, we can continue to improve and refine our way of creating and maintaining an application. This boilerplate is the result of finding a balance between practicality, simplicity and foresight to create a scalable and maintainable application
+In each project, we can continue to improve and refine our way of creating and maintaining an application. This boilerplate is the result of finding a balance between practicality, simplicity and foresight to create a scalable and maintainable application
 
-** Projects in what is inspired:**
+**Projects in what is inspired:**
 
 - [nearform - react-redux-typescript-saga-immutable](https://github.com/nearform/react-redux-typescript-saga-immutable)
 
@@ -59,16 +59,22 @@ n each project, we can continue to improve and refine our way of creating and ma
     Control the status of your application as if it were a database, easy, optimized and immutable
   </dd>
 
-<dt>Reselect</dt>
+  <dt>Reselect</dt>
   <dd>
     Take only the necessary data for your container/component, without overflow the reducers. Let's optimized!
   </dd>
-</dl>
 
-<dt>React Intl</dt>
+  <dt>React Intl</dt>
   <dd>
     A powerful tool language internationalization, cutomized for the local values, messages... now is handled in the same store application. More fast and easy to maintenance.
   </dd>
+
+  <dt>Server side rendering</dt>
+  <dd>
+    Helps you to load you app faster and improve you SEO
+  </dd>
+
+
 </dl>
 
 **Why Typescript?**
