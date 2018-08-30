@@ -29,6 +29,7 @@ In each project, we can continue to improve and refine our way of creating and m
 - React intl 2.4
 - Styled components 3.4.4
 - Reselect 3
+- Reactstrap 6.4
 - Jest
 - Scss
 
@@ -72,6 +73,11 @@ In each project, we can continue to improve and refine our way of creating and m
   <dt>Server side rendering</dt>
   <dd>
     Helps you to load you app faster and improve you SEO
+  </dd>
+
+  <dt>Reactstrap</dt>
+  <dd>
+    Bootstrap libraries for react to design standards components
   </dd>
 
 
