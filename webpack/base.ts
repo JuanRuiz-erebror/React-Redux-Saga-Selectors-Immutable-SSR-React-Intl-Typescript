@@ -1,6 +1,7 @@
 import * as path from 'path';
 import * as webpackMerge from 'webpack-merge';
 import { HOST } from '../config'
+import * as MiniCssExtractPlugin from 'mini-css-extract-plugin'
 
 const srcPath = (p: string) => path.resolve(__dirname, '..', 'src/', p);
 
@@ -77,6 +78,14 @@ const baseConfig: any = {
         ],
       },
       {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+            process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
+            'css-loader', // translates CSS into CommonJS
+            'sass-loader' // compiles Sass to CSS, using Node Sass by default
+        ]
+      },
+      {
         test: /\.(jpe?g|png|gif)$/i,
         oneOf: [
           {
@@ -104,6 +113,7 @@ const baseConfig: any = {
           /\.js$/,
           /\.tsx?$/,
           /\.css$/,
+          /\.scss$/,
           /\.svg$/,
           /\.(jpe?g|png|gif)$/i,
           /\.json$/,
